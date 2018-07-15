@@ -41,13 +41,13 @@ public class ProductController {
     private IProductService iProductService;
 
 
-    @RequestMapping("get_product_detail.do")
+    @RequestMapping(value = "get_product_detail.do", method = RequestMethod.GET)
     @ResponseBody
     public ServerResponse<ProductDetailVo> getProductDetail(Integer productId) {
         return iProductService.getProductDetail(productId);
     }
 
-    @RequestMapping("list.do")
+    @RequestMapping(value = "list.do", method = RequestMethod.GET)
     @ResponseBody
     public ServerResponse<PageInfo> list(@RequestParam(value = "keyword", required = false) String keyword,
                                          @RequestParam(value = "categoryId", required = false) Integer categoryId,

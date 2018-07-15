@@ -15,13 +15,13 @@ import java.util.UUID;
 
 /**
  * 描述:
- * IUserServiceImpl
+ * UserServiceImpl
  *
  * @outhor Leo
  * @create 2018-06-12 下午 11:44
  */
 @Service(value = "IUserService")
-public class IUserServiceImpl implements IUserService {
+public class UserServiceImpl implements IUserService {
 
     @Autowired
     private UserMapper userMapper;

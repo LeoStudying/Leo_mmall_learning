@@ -24,13 +24,13 @@ import java.util.List;
 
 /**
  * 描述:
- * ICartServiceImpl
+ * CartServiceImpl
  *
  * @outhor Leo
  * @create 2018-06-27 下午 9:53
  */
 @Service(value = "ICartService")
-public class ICartServiceImpl implements ICartService {
+public class CartServiceImpl implements ICartService {
 
     @Autowired
     private CartMapper cartMapper;

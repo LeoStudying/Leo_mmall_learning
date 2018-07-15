@@ -14,15 +14,15 @@ import java.util.UUID;
 
 /**
  * 描述:
- * IFileServiceImpl
+ * FileServiceImpl
  *
  * @outhor Leo
  * @create 2018-06-24 下午 8:29
  */
 @Service(value = "IFileService")
-public class IFileServiceImpl implements IFileService {
+public class FileServiceImpl implements IFileService {
 
-    private Logger logger = LoggerFactory.getLogger(IFileServiceImpl.class);
+    private Logger logger = LoggerFactory.getLogger(FileServiceImpl.class);
 
     @Override
     public String upload(MultipartFile file,String path){

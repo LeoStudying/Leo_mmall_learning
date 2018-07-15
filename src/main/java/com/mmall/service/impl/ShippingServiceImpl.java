@@ -21,13 +21,13 @@ import java.util.Map;
 
 /**
  * 描述:
- * IShippingServiceImpl
+ * ShippingServiceImpl
  *
  * @outhor Leo
  * @create 2018-07-08 下午 2:05
  */
 @Service(value = "IShippingService")
-public class IShippingServiceImpl implements IShippingService {
+public class ShippingServiceImpl implements IShippingService {
 
     @Autowired
     private ShippingMapper shippingMapper;

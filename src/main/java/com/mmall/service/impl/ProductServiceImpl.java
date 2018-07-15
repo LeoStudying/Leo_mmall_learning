@@ -25,13 +25,13 @@ import java.util.List;
 
 /**
  * 描述:
- * IProductServiceImpl
+ * ProductServiceImpl
  *
  * @outhor Leo
  * @create 2018-06-24 下午 4:10
  */
 @Service(value = "IProductService")
-public class IProductServiceImpl implements IProductService {
+public class ProductServiceImpl implements IProductService {
 
     @Autowired
     private ProductMapper productMapper;

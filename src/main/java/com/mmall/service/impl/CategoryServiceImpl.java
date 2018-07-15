@@ -19,15 +19,15 @@ import java.util.Set;
 
 /**
  * 描述:
- * ICategoryServiceImpl
+ * CategoryServiceImpl
  *
  * @outhor Leo
  * @create 2018-06-22 下午 11:55
  */
 @Service(value = "ICategoryService")
-public class ICategoryServiceImpl implements ICategoryService {
+public class CategoryServiceImpl implements ICategoryService {
 
-    private Logger logger = LoggerFactory.getLogger(ICategoryServiceImpl.class);
+    private Logger logger = LoggerFactory.getLogger(CategoryServiceImpl.class);
 
     @Autowired
     private CategoryMapper categoryMapper;
